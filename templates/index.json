@@ -33,31 +33,10 @@
             "background": "",
             "background_gradient": ""
           }
-        },
-        "slide-2": {
-          "type": "image",
-          "settings": {
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "Tell your story",
-            "title": "Slide title",
-            "heading_tag": "h0",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "background": "",
-            "background_gradient": ""
-          }
         }
       },
       "block_order": [
-        "slide-1",
-        "slide-2"
+        "slide-1"
       ],
       "settings": {
         "full_width": true,
@@ -71,90 +50,80 @@
         "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
       }
     },
-    "image-link-blocks": {
-      "type": "image-link-blocks",
+    "multi_column_96bXnk": {
+      "type": "multi-column",
       "blocks": {
-        "1664424046b00c932c-0": {
+        "item_66kWc9": {
           "type": "item",
           "settings": {
-            "stretch_image": true,
-            "link_text": "",
+            "image": "shopify://shop_images/ChatGPT_Image_14_juin_2025_18_06_02.png",
+            "column_size": "4",
+            "title": "Protégez votre santé",
+            "heading_tag": "h4",
+            "content": "<p>Élimine le chlore, les métaux lourds et micro-impuretés pour une eau plus saine.</p>",
             "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "link_text": "",
+            "link_style": "link"
           }
         },
-        "1664424046b00c932c-1": {
+        "item_n6tWUb": {
           "type": "item",
           "settings": {
-            "stretch_image": true,
-            "link_text": "",
+            "image": "shopify://shop_images/ChatGPT_Image_14_juin_2025_18_10_47.png",
+            "column_size": "4",
+            "title": "Installation universelle",
+            "heading_tag": "h4",
+            "content": "<p>S’installe en moins de 2 minutes sur la majorité des robinets standards.</p>",
             "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "link_text": "",
+            "link_style": "link"
           }
         },
-        "1664424046b00c932c-2": {
+        "item_cp3BrY": {
           "type": "item",
           "settings": {
-            "stretch_image": true,
-            "link_text": "",
+            "image": "shopify://shop_images/ChatGPT_Image_14_juin_2025_18_16_23.png",
+            "column_size": "4",
+            "title": "Écologique & durable",
+            "heading_tag": "h4",
+            "content": "<p>Réduisez votre consommation de plastique, sans compromis sur la qualité.</p>",
             "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "link_text": "",
+            "link_style": "link"
           }
         },
-        "1664424046b00c932c-3": {
+        "item_94cUP4": {
           "type": "item",
           "settings": {
-            "stretch_image": true,
-            "link_text": "",
+            "image": "shopify://shop_images/ChatGPT_Image_14_juin_2025_18_24_48.png",
+            "column_size": "4",
+            "title": "Économique à long terme",
+            "heading_tag": "h4",
+            "content": "<p>Un filtre = des centaines de litres d’eau. Fini les bouteilles à acheter.</p>",
             "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "e4a0ef18-1856-4ddd-83d8-871a60d7acac": {
-          "type": "item",
-          "settings": {
-            "stretch_image": true,
             "link_text": "",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "link_style": "link"
           }
         }
       },
       "block_order": [
-        "1664424046b00c932c-0",
-        "1664424046b00c932c-1",
-        "1664424046b00c932c-2",
-        "1664424046b00c932c-3",
-        "e4a0ef18-1856-4ddd-83d8-871a60d7acac"
+        "item_66kWc9",
+        "item_n6tWUb",
+        "item_cp3BrY",
+        "item_94cUP4"
       ],
+      "name": "Multi-column",
       "settings": {
-        "full_width": false,
-        "block_size": "medium",
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "center",
         "subheading": "",
         "title": "",
         "content": "",
-        "link_url": "",
-        "link_text": "",
         "background": "",
         "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": ""
+        "text_color": ""
       }
     },
     "scrolling-text": {
@@ -879,7 +848,7 @@
   },
   "order": [
     "slideshow",
-    "image-link-blocks",
+    "multi_column_96bXnk",
     "scrolling-text",
     "collection-list",
     "featured-collection",
